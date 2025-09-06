@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const target = params.get("to");
+    if (target) {
+      window.location.href = decodeURIComponent(target);
+    } else {
+      document.body.innerHTML = "<h1>No redirect target provided.</h1>";
+    }
+  </script>
+</head>
+<body></body>
+</html>
