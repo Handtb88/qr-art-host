@@ -1,0 +1,6 @@
+<!-- Placeholder QR code SVG. Replace with generated output. -->
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="512" height="512" fill="#fff"/>
+  <text x="256" y="256" text-anchor="middle" font-size="32" font-family="Arial" fill="#333" dy="10">QR-pack001</text>
+  <rect x="190" y="190" width="132" height="132" rx="16" fill="#e0e0e0" stroke="#333" stroke-width="4"/>
+</svg>
